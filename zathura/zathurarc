@@ -1,0 +1,32 @@
+set adjust-open "best-fit"
+
+set pages-per-row 1
+
+set smooth-scroll "true"
+
+set recolor "true"
+
+set statusbar-v-padding 20
+set statusbar-h-padding 20
+
+set font "Roboto Mono 11"
+set default-bg "#03020E" #00
+set default-fg "#d0d0dc" #01
+
+set highlight-color "#9D61A7" #0A
+set highlight-active-color "#7194B2" #0D
+
+set completion-highlight-fg "#ffffff" #02
+set completion-highlight-bg "#7194B2"
+
+set completion-bg "#C76B9F" #02
+set completion-fg "#FFFFFF" #0C
+
+set inputbar-bg "#C76B9F" #00 currently not used
+set inputbar-fg "#FFFFFF" #02
+
+set statusbar-fg "#ffffff" #04
+set statusbar-bg "#C76B9F" #01
+
+set guioptions none
+
