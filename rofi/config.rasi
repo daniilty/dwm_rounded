@@ -1,0 +1,56 @@
+* {
+  border-radius: 10px;
+  background-color: #03020E;
+  text-color: #f8f8f8;
+  font: "Roboto Mono Medium 10";
+  spacing: 0.2em;
+  padding: 3px 5px;
+  width: 512px;
+}
+window {
+  border-color: #d0d0dc;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px;
+}
+inputbar {
+  text-color: #03020E;
+  background-color: #d0d0dc;
+  border: 0 0 0px 0;
+  border-radius: 10px;
+  children: [prompt,entry];
+}
+
+prompt {
+  text-color: #03020E;
+  background-color: #d0d0dc;
+  padding: 16px;
+  border: 0 0px 0 0;
+}
+
+textbox {
+  padding: 8px 16px;
+}
+
+entry {
+  text-color: #03020E;
+  background-color: #d0d0dc;
+  padding: 16px;
+}
+
+listview {
+  lines: 4;
+  cycle: false;
+  margin: 10px 0 0 0;
+  scrollbar: false;
+}
+
+element {
+  padding: 16px;
+}
+
+element selected {
+  background-color: #f8f8f8;
+  text-color: #000000;
+  border-radius: 10px;
+}
