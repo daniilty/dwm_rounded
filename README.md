@@ -1,0 +1,26 @@
+# My current dwm setup
+
+To set it up you need to install following:
+* rofi(app launcher)
+* kitty(terminal)
+* vim(editor)
+* fish(shell)
+* feh(to set up wallpaper)
+
+And download following fonts:
+* Roboto Mono [Nerd]
+* icomoon feather
+
+Next
+```bash
+$ cd dwm && sudo make install # if you have any errors just install base-devel package
+$ vim ~/.xinitrc
+```
+.xinitrc:
+```bash
+exec ~/path/to/repo/dwm_bar.sh &
+exec feh --bg-fill ~/path/to/repo/bg.png
+exec dwm
+```
+
+Next relogin and enjoy your rice!
